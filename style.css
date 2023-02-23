@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: black;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.logo{
+    color: #8f3838;
+    font-weight: bold;
+    font-size: 4em;
+    text-decoration: none;
+}
+
+.logo span {
+    color: rgb(255, 153, 127);
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+
+.navbar li{
+    list-style:none;
+}
+
+.navbar a{
+    color: #8f3838;
+    text-decoration:wavy;
+    margin-left: 30px;
+    font-weight: 700;
+}
+header .navbar li a:hover{
+    color:rgb(3, 3, 7);
+    border-bottom: 2px solid;
+}
