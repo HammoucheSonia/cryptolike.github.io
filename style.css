@@ -17,22 +17,26 @@ header{
     left: 0%;
     padding: 20px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.5s;
+    transition: 2s;
 }
 
 .logo{
     color: #8f3838;
     font-weight: bold;
-    font-size: 4em;
+    font-size: 5em;
     text-decoration: none;
 }
 
 .logo span {
-    color: rgb(255, 153, 127);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    position: relative;
+    color: rgb(31, 13, 4);
 }
 
 .navbar{
@@ -45,12 +49,32 @@ header{
 }
 
 .navbar a{
-    color: #8f3838;
+    color: #710b0b;
     text-decoration:wavy;
-    margin-left: 30px;
+    margin-left: 40px;
     font-weight: 700;
 }
 header .navbar li a:hover{
-    color:rgb(3, 3, 7);
+    color:rgb(7, 3, 7);
     border-bottom: 2px solid;
+}
+
+
+.mon_git
+{
+    padding: 10px;
+    width: 10px;
+}
+
+histoire{
+    position: fixed;
+    top: 20%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 2;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 2s;
 }
